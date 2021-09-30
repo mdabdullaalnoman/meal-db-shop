@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './Header';
+import Meal from './Meal';
 
-const Header = () => {
+const Home = () => {
     return (
         <div>
-            <h1>this is header</h1>
+            <Header />
+            <Meal />
         </div>
     );
 };
 
-export default Header;
+export default Home;
